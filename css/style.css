@@ -1,0 +1,194 @@
+ #Home{
+    position: relative;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 100vh;
+}
+#Home .HomeBackground{
+    position: absolute;
+    background-color:rgba(214, 46, 51 , 0.6);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#Home h2{
+    margin-top: 200px;
+}
+#home-content h2{
+    font-size: 3.75rem
+}
+
+
+#leftMenu
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 3.875rem;
+}
+
+.sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+
+
+
+#Home h2
+{
+    margin-top: 200px;
+    
+}
+
+
+
+
+#Home h2,p
+{
+    text-align: center;
+    
+}
+.openNav{
+    font-size:30px;cursor:pointer
+}
+
+
+
+
+.sidenav
+{
+    background-color: #414658;
+}
+
+
+
+
+.sidenav a:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+
+.sidenav .closeNav {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#home-content {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+#home-content h2
+{
+    font-size: 60px;
+}
+/* end of home section */
+/* start of slider section */
+.slider{
+    background-color: #E68285;
+    padding: 10px;
+}
+#sliderDown{
+    cursor: pointer;
+    background-color: #E68285;
+
+}
+.sliderContent{
+    background-color: #CCCCCC;
+    padding: 40px;
+    display: none;
+
+}
+.firstSlider{
+    display: block;
+}
+/* end of slider section */
+
+
+/* start of count section */
+#count{
+    background-image:url(../images/invitation-2508607__340.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 8rem;
+
+
+}
+
+#count .count-overlay {
+    position: absolute;
+    background-color: rgba(214, 46, 51 , 0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#count .container{
+    position: relative!important;
+}
+
+
+#count p{
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+/* end of count section */
+/* start of contact section */
+
+
+.contact-box{
+    margin-top: 4rem;
+}
+.contact-sections{
+    padding: 3rem;
+    margin-bottom: 3rem;
+
+}
+.my-btn{
+    background-color: #D62E33;
+    color: #fff;
+}
+.icon-circle{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    border:3px solid #D62E33;
+    transition: all 1s;
+    color: black;
+}
+a:hover .icon-circle{
+    background-color: #D62E33;
+    border:solid 3px #CDE1F8;
+    color: #fff; 
+}
+#alert{
+    font-size: 20px;
+    color: #D62E33;
+}
+
+/* end of contact section */
+input:focus{
+    outline: none !important;
+}
